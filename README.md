@@ -21,7 +21,7 @@ Lucid Agents is a TypeScript-first framework for building and monetizing AI agen
 
 **Core Capabilities:**
 
-- **Industry-Standard Protocols**: Native support for x402 (payments), A2A (agent-to-agent communication), and ERC-8004 (onchain identity). Build agents that work with the ecosystem
+- **Industry-Standard Protocols**: Native support for x402 (payments), A2A (agent-to-agent communication), and ERC-8004 (onchain identity). Build agents that work with the ecosystem.
 - **Bi-Directional Payment Tracking**: Track both outgoing payments (agent pays) and incoming payments (agent receives) with persistent storage. Automatic recording with policy enforcement
 - **Payment Policies**: Control spending and receivables with per-payment limits, time-windowed totals, per-target/per-sender limits, and allow/block lists. Multiple policy groups for flexible control
 - **Accept Payments**: Accept payments in USDC on Ethereum L2s (Base) or Solana with automatic paywall middleware. No payment infrastructure code needed

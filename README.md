@@ -22,20 +22,20 @@ Lucid Agents is a TypeScript-first framework for building and monetizing AI agen
 **Core Capabilities:**
 
 - **Industry-Standard Protocols**: Native support for x402 (payments), A2A (agent-to-agent communication), and ERC-8004 (onchain identity). Build agents that work with the ecosystem.
-- **Bi-Directional Payment Tracking**: Track both outgoing payments (agent pays) and incoming payments (agent receives) with persistent storage. Automatic recording with policy enforcement
-- **Payment Policies**: Control spending and receivables with per-payment limits, time-windowed totals, per-target/per-sender limits, and allow/block lists. Multiple policy groups for flexible control
-- **Accept Payments**: Accept payments in USDC on Ethereum L2s (Base) or Solana with automatic paywall middleware. No payment infrastructure code needed
-- **Payment Analytics**: Comprehensive payment reporting with summary statistics, transaction history, and CSV/JSON export for accounting system integration
-- **Agent-to-Agent Communication**: Agents can discover and call other agents, enabling agent marketplaces and multi-agent systems where agents buy and sell services from each other
-- **Onchain Identity**: Register agent identities onchain, build reputation, and prove ownership for trust in agent marketplaces
-- **Framework Flexibility**: Write your agent logic once, deploy on Hono, TanStack Start, Express, or Next.js. Choose the framework that fits your stack
-- **Type-Safe APIs**: Define inputs/outputs with Zod schemas, get automatic validation, JSON schemas, and full TypeScript inference
-- **Real-Time Streaming**: Server-Sent Events (SSE) for streaming agent responses. Perfect for LLM outputs and long-running operations
-- **Task Management**: Long-running tasks with status tracking, cancellation, and real-time updates via SSE subscriptions
-- **Auto-Discovery**: Auto-generated AgentCard manifests with Open Graph tags. Agents are discoverable in directories and show rich previews when shared
-- **Quick Start**: CLI scaffolding with templates for common patterns. Get a working agent in minutes, not hours
-- **Multi-Network Support**: Accept payments on EVM (Base, Ethereum, Sepolia) or Solana (mainnet, devnet) networks
-- **Composable Architecture**: Add only the features you need. Payments, identity, A2A, wallets, analytics. Mix and match as your agent evolves
+- **Bi-Directional Payment Tracking**: Track both outgoing payments (agent pays) and incoming payments (agent receives) with persistent storage. Automatic recording with policy enforcement.
+- **Payment Policies**: Control spending and receivables with per-payment limits, time-windowed totals, per-target/per-sender limits, and allow/block lists. Multiple policy groups for flexible control.
+- **Accept Payments**: Accept payments in USDC on Ethereum L2s (Base) or Solana with automatic paywall middleware. No payment infrastructure code needed.
+- **Payment Analytics**: Comprehensive payment reporting with summary statistics, transaction history, and CSV/JSON export for accounting system integration.
+- **Agent-to-Agent Communication**: Agents can discover and call other agents, enabling agent marketplaces and multi-agent systems where agents buy and sell services from each other.
+- **Onchain Identity**: Register agent identities onchain, build reputation, and prove ownership for trust in agent marketplaces.
+- **Framework Flexibility**: Write your agent logic once, deploy on Hono, TanStack Start, Express, or Next.js. Choose the framework that fits your stack.
+- **Type-Safe APIs**: Define inputs/outputs with Zod schemas, get automatic validation, JSON schemas, and full TypeScript inference.
+- **Real-Time Streaming**: Server-Sent Events (SSE) for streaming agent responses. Perfect for LLM outputs and long-running operations.
+- **Task Management**: Long-running tasks with status tracking, cancellation, and real-time updates via SSE subscriptions.
+- **Auto-Discovery**: Auto-generated AgentCard manifests with Open Graph tags. Agents are discoverable in directories and show rich previews when shared.
+- **Quick Start**: CLI scaffolding with templates for common patterns. Get a working agent in minutes, not hours.
+- **Multi-Network Support**: Accept payments on EVM (Base, Ethereum, Sepolia) or Solana (mainnet, devnet) networks.
+- **Composable Architecture**: Add only the features you need. Payments, identity, A2A, wallets, analytics. Mix and match as your agent evolves.
 
 Whether you're building paid AI services, agent marketplaces, or multi-agent systems where agents transact with each other, Lucid Agents provides the payments and commerce infrastructure you need.
 
